@@ -1,0 +1,372 @@
+.inbox{
+    display: flex;
+}
+.N-1{
+    background-color: rgba(238,242,245,255);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    flex: 0.5;
+}
+
+.N-input input{
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgba(232,237,248,255);
+    padding: 8px;
+    width: 100%;
+}
+.N-input{
+    margin: 20px 0;
+}
+#N-Search{
+    position: relative;
+    float: right;
+    top: -30px;
+    right: 10px;
+}
+.N-input input::placeholder{
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.603);
+}
+.N-2-Chat{
+    display: flex;
+    margin: 10px;
+    background-color: rgba(232,237,250,255);
+    padding: 15px;
+    border-radius: 13px;
+    justify-content: space-between;
+}
+
+.Profileimg{
+    border-color: gray;
+    border-width: 2px;
+    border-style: solid;
+    padding: 6px;
+    border-radius: 50%;
+}
+.Profileimg img{
+    height: 45px;
+}
+.Username h5{
+    font-weight: 600;
+}
+.Username h6{
+    color: rgba(128, 128, 128, 0.795);
+}
+.inboxheader{
+    display: flex;
+    background-color: rgba(238,242,245,255);
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+.inbox-2{
+    background-color: rgba(238,242,245,255);
+    border-radius: 10px;
+    margin: 25px;
+    flex: 1; 
+    align-items: center;
+    padding: 15px;
+}
+#inboxchatimg{
+    margin:  15px;
+}
+#inboxchatimg img{
+    height: 38px;
+}
+
+.profileonline span{
+    color: green;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.profileonline h5{
+    font-weight: 600;
+    margin-bottom: -14px;
+}
+.profileonline h6{
+    color: blue;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+#dott{
+    margin: 20px 0 0 0;
+}
+#onlinedott{
+    margin: -17px;
+}
+#Cchat{
+    display: flex;
+    align-items: center;
+}
+#textmessage{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: grey;
+    padding: 11px;
+    height: 50%;
+}
+#textmessage h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+.Chat-11 h5{
+    font-size: 15px;
+    color: grey;
+    font-weight: 600;
+    margin: 13px;
+}
+
+
+#CChat-11 h5{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.keybord ul{
+    display: flex;
+    align-items: center;
+}
+.keybord ul li:nth-child(2){
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.keybord ul li:nth-child(3){
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.keybord ul li:nth-child(4){
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.keybord ul li:nth-child(5){
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.keybord ul li:nth-child(1){
+    width: 100%;
+}
+.keybord ul li:nth-child(1) input{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    /* width: 550px */
+    width: 100%;
+}
+.keybord ul li:nth-child(1) input::placeholder{
+    color: rgba(128, 128, 128, 0.616);
+    font-weight: 600;
+}
+
+.keybord ul li:nth-child(6){
+    background: rgb(56, 78, 214);
+    background: linear-gradient(
+      90deg,
+      rgba(56, 78, 214, 1) 19%,
+      rgba(219, 4, 175, 0.7091211484593838) 100%,
+      rgba(29, 89, 134, 1) 100%
+    );
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.keybord ul li svg{
+    color: white;
+    height: 20px;
+    width: 20px;
+}
+
+
+/* new CSS */
+
+
+.Profileimg2{
+    display: flex;
+    align-items: center;
+}
+
+#dott{
+    margin:0;
+}
+
+.PPPPPP{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#HHHHRRRR{
+    margin: 0 10px;
+    margin-top: -3px;
+}
+#CChat-11{
+    float: right;
+}
+.keybord{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:768px){
+    .inbox{
+        flex-direction: column;
+    }
+    .Chat-11{
+        top: 0;
+        left: 0;
+    }
+    .keybord{
+        top: 0;
+    }
+    #HHHHRRRRr{
+        top: 0;
+    }
+}
+
+@media screen and (max-width:425px){
+    .inbox{
+        flex-direction: column;
+    }
+    .Chat-11{
+        top: 0;
+        left: 0;
+    }
+    .keybord{
+        top: 0;
+    }
+    #HHHHRRRRr{
+        top: 0;
+    }
+    #CChat-11 {
+        left: 0;
+        float:none;
+    }
+    .keybord ul{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .keybord{
+        text-align: center;
+    }
+    .N-1{
+        margin: 20px 5px;
+    }
+    .inbox-2{
+        margin: 20px 5px;
+    }
+    #br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px){
+    .inbox{
+        flex-direction: column;
+    }
+    .Chat-11{
+        top: 0;
+        left: 0;
+    }
+    .keybord{
+        top: 0;
+    }
+    #HHHHRRRRr{
+        top: 0;
+    }
+    #CChat-11 {
+        left: 0;
+        float:none;
+    }
+    .keybord ul{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .keybord{
+        text-align: center;
+    }
+    .N-1{
+        margin: 20px 5px;
+    }
+    .inbox-2{
+        margin: 20px 5px;
+    }
+    #br{
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px){
+    .inbox{
+        flex-direction: column;
+    }
+    .Chat-11{
+        top: 0;
+        left: 0;
+    }
+    .keybord{
+        top: 0;
+    }
+    #HHHHRRRRr{
+        top: 0;
+    }
+    #CChat-11 {
+        left: 0;
+        float:none;
+    }
+    .keybord ul{
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .keybord{
+        text-align: center;
+    }
+    .N-1{
+        margin: 20px 5px;
+        padding: 5px;
+    }
+    .inbox-2{
+        margin: 20px 5px;
+        padding: 5px;
+    }
+    #br{
+        display: none;
+    }
+}

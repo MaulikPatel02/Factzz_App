@@ -1,0 +1,60 @@
+.S-1 img{
+    height: 30px;
+    margin: 13px auto;
+    padding: 0;
+    cursor: pointer;
+}
+.S-1{
+    margin: -6px;
+    padding: 0;
+}
+.S-2 ul{
+    padding: 0;
+}
+.S-2 ul li svg:hover{
+    cursor: pointer;
+}
+
+.S-3 img{
+    margin: auto auto;
+}
+.S{
+    margin: 0 10px;
+    text-align: center;
+}
+#hr2{
+    color: var(--primary-color);
+    text-align: center;
+}
+.S{
+    margin: 0 10px;
+}
+.S-2 ul li{
+    margin: 45px 0;
+}
+.S-2 ul li:nth-child(9){
+    margin-bottom: 10px;
+}
+.S-2 ul li svg{
+    width: auto;
+    height: 27px;
+    padding: 0;
+    color: var(--primary-color);
+    
+}
+a{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

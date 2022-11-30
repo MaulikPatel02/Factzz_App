@@ -1,0 +1,148 @@
+.T-1 {
+  flex: 3;
+  margin-right: 70px;
+}
+.Termsofuser {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.T-1 ul li {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 7px;
+  font-weight: 600;
+  color: var(--terms-color);
+}
+.T-1 ul li:hover {
+  background: rgb(56, 78, 214);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 78, 214, 1) 19%,
+    rgba(219, 4, 175, 0.7091211484593838) 100%,
+    rgba(29, 89, 134, 1) 100%
+  );
+  color: white;
+}
+.T-2 {
+  color: var(--terms22-color);
+  border-style: none;
+  border-radius: 10px;
+  background-color: var( --terms3-color);
+  flex: 5;
+  padding: 30px;
+  margin: 20px 30px;
+  font-weight: 500;
+}
+.T-2 h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.T-2 p {
+  font-size: 15px;
+  margin: 23px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media responsive */
+
+
+
+@media screen and (max-width:1024px){
+  .T-2 p{
+    font-size: 12px;
+  }
+ 
+}
+
+
+@media screen and (max-width:768px){
+  .Termsofuser{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .T-2{
+    margin:15px 7px;
+    text-align: center;
+  }
+  .T-1{
+    margin: 0;
+  }
+  .T-1 ul{
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width:425px){
+  .Termsofuser{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .T-2{
+    margin:15px 10px;
+    text-align: center;
+  }
+  .T-1{
+    margin: 0;
+  }
+  .T-1 ul{
+    padding: 0;
+  }
+}
+
+
+
+
+@media screen and (max-width:375px){
+  .Termsofuser{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .T-2{
+    margin:15px 8px;
+    text-align: center;
+  }
+  .T-1{
+    margin: 0;
+  }
+  .T-1 ul{
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .Termsofuser{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .T-2{
+    margin:15px 8px;
+    text-align: center;
+  }
+  .T-1{
+    margin: 0;
+  }
+  .T-1 ul{
+    padding: 0;
+  }
+}

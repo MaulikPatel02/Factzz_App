@@ -1,0 +1,115 @@
+.Bookmark{
+    display: flex;
+    justify-content: space-between;
+}
+.B-1{
+    flex: 0.9;
+    margin: 15px 10px;
+}
+
+#B1-1{
+    width: 100%;
+}
+
+#B1-1 svg{
+    margin: auto 15px;
+}
+.B2-2{
+    background: rgb(56, 78, 214);
+    background: linear-gradient(
+      90deg,
+      rgba(56, 78, 214, 1) 19%,
+      rgba(219, 4, 175, 0.7091211484593838) 100%,
+      rgba(29, 89, 134, 1) 100%
+    );
+    
+    border-radius: 10px;
+    margin: 30px auto ;
+   
+    padding: auto 20px;
+    width:100%;
+}
+.B-2{
+    display: flex;
+    /* flex: 5; */
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    margin: auto 20px;
+}
+
+#VOICE{
+    color: rgba(158, 147, 147, 0.842);
+    margin: 30px 50px;
+}
+#CLOSE{
+    color: white;
+    position: relative;
+    /* top: -32px; */
+    /* right: px; */
+    float: right;
+    margin:8px
+}
+
+#BBBBB{
+    margin: auto 20px;
+}
+
+
+
+
+
+/* media responsive */
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px){
+  
+
+    .Bookmark{
+        flex-direction: column;
+    }
+    .B-2{
+        margin: 0;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 425px){
+    .Bookmark{
+        flex-direction: column;
+    }
+    .B-2{
+        margin: 0;
+        justify-content: center;
+        
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .Bookmark{
+        flex-direction: column;
+    }
+    .B-2{
+        margin: 0;
+        justify-content: center;
+        
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .Bookmark{
+        flex-direction: column;
+    }
+    .B-2{
+        margin: 0;
+        justify-content: center;
+    }
+}
+
+
+
